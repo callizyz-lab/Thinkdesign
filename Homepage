@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Think Design Solutions – Product & UX Design</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">Think Design Solutions</a>
+      <nav class="nav">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="section hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Product & UX Design</p>
+          <h1>Designing human‑centered digital products that feel effortless to use.</h1>
+          <p class="body-l">
+            I’m a UI/UX designer with 8+ years of experience crafting research‑driven,
+            accessible interfaces for web and mobile products.
+          </p>
+          <div class="hero-actions">
+            <a href="#work" class="btn primary">View selected work</a>
+            <a href="#about" class="btn ghost">About me</a>
+          </div>
+        </div>
+        <div class="hero-meta">
+          <ul class="meta-list">
+            <li><span class="meta-label">Focus</span><span>Product design, UX, UI</span></li>
+            <li><span class="meta-label">Methods</span><span>Research, prototyping, testing</span></li>
+            <li><span class="meta-label">Location</span><span>Benbrook, TX (Remote‑friendly)</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured work -->
+    <section id="work" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>Selected work</h2>
+          <p class="body-m">
+            A sample of product and UX projects spanning complex workflows, responsive web apps,
+            and mobile experiences.
+          </p>
+        </header>
+
+        <div class="grid projects-grid">
+          <!-- Project card -->
+          <article class="project-card">
+            <a href="projects/project-one/index.html" class="project-link">
+              <div class="project-thumb">
+                <img src="assets/project-one-thumb.jpg" alt="Project One – brief description" />
+              </div>
+              <div class="project-content">
+                <h3>Project One Title</h3>
+                <p class="body-s">
+                  Short one‑line value statement about the outcome and user impact.
+                </p>
+                <p class="project-meta">Product design · UX · Research</p>
+              </div>
+            </a>
+          </article>
+
+          <!-- Duplicate cards as needed -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div>
+          <h2>About</h2>
+          <p class="body-m">
+            I design human‑centered products by combining qualitative research, systems thinking,
+            and clear visual hierarchy.
+          </p>
+          <p class="body-m">
+            Over the past 8+ years, I’ve worked across end‑to‑end product cycles—from discovery
+            and problem framing to high‑fidelity UI and design systems.
+          </p>
+        </div>
+        <div class="about-meta">
+          <h3 class="subheading">Capabilities</h3>
+          <ul class="tag-list">
+            <li>UX research</li>
+            <li>Interaction design</li>
+            <li>UI & visual design</li>
+            <li>Design systems</li>
+            <li>Prototyping</li>
+          </ul>
+
+          <h3 class="subheading">Tools</h3>
+          <ul class="tag-list">
+            <li>Figma</li>
+            <li>FigJam</li>
+            <li>Notion</li>
+            <li>Miro</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-alt">
+      <div class="container contact-inner">
+        <div>
+          <h2>Let’s work together</h2>
+          <p class="body-m">
+            I’m available for product design roles, consulting, and collaborations on
+            research‑driven digital products.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a href="mailto:youremail@domain.com" class="btn primary">Email me</a>
+          <a href="https://www.linkedin.com/" class="btn ghost" target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="body-xs">© <span id="year"></span> Think Design Solutions. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
