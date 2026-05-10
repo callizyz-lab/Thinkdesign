@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Project Title – Case Study | Think Design Solutions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body class="case-study">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">Think Design Solutions</a>
+      <nav class="nav">
+        <a href="/#work">Work</a>
+        <a href="/#about">About</a>
+        <a href="/#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="section case-hero">
+      <div class="container case-hero-inner">
+        <div>
+          <p class="eyebrow">Case study</p>
+          <h1>Project Title</h1>
+          <p class="body-l">
+            One‑sentence summary of the product, audience, and primary outcome.
+          </p>
+        </div>
+        <div class="case-meta">
+          <dl>
+            <div>
+              <dt>Role</dt>
+              <dd>Product & UX Designer</dd>
+            </div>
+            <div>
+              <dt>Company / Client</dt>
+              <dd>Client name or internal product</dd>
+            </div>
+            <div>
+              <dt>Timeline</dt>
+              <dd>3 months · 2024</dd>
+            </div>
+            <div>
+              <dt>Platform</dt>
+              <dd>Web · Mobile</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section class="section">
+      <div class="container narrow">
+        <h2>Overview</h2>
+        <p class="body-m">
+          Brief context: what problem the product addresses, who it serves, and why it mattered.
+        </p>
+      </div>
+    </section>
+
+    <!-- Problem & goals -->
+    <section class="section section-alt">
+      <div class="container split">
+        <div>
+          <h2>Problem</h2>
+          <p class="body-m">
+            Describe the core user and business problem in clear, non‑jargony language.
+          </p>
+        </div>
+        <div>
+          <h2>Goals</h2>
+          <ul class="body-m">
+            <li>Goal 1 – measurable, outcome‑oriented.</li>
+            <li>Goal 2 – user‑centric.</li>
+            <li>Goal 3 – business or operational impact.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section class="section">
+      <div class="container narrow">
+        <h2>Research & insights</h2>
+        <p class="body-m">
+          Summarize methods (interviews, usability tests, surveys, analytics) and 3–5 key insights.
+        </p>
+        <ul class="insights-list">
+          <li><strong>Insight 1:</strong> What you learned and why it mattered.</li>
+          <li><strong>Insight 2:</strong> How it shaped the solution.</li>
+          <li><strong>Insight 3:</strong> Any surprising behavior or constraint.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Solution -->
+    <section class="section section-alt">
+      <div class="container">
+        <h2>Solution</h2>
+        <p class="body-m">
+          High‑level narrative of the solution: information architecture, key flows, and interaction patterns.
+        </p>
+
+        <figure class="case-figure">
+          <img src="../../assets/project-one-flow.jpg" alt="Key user flow for Project One" />
+          <figcaption class="body-xs">
+            Example: primary user flow from onboarding to task completion.
+          </figcaption>
+        </figure>
+
+        <div class="grid two-col">
+          <div>
+            <h3 class="subheading">Interaction design</h3>
+            <p class="body-m">
+              Explain how you simplified complexity, reduced friction, or clarified hierarchy.
+            </p>
+          </div>
+          <div>
+            <h3 class="subheading">Visual design</h3>
+            <p class="body-m">
+              Talk about typography, color, and components that supported usability and brand.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Outcomes -->
+    <section class="section">
+      <div class="container narrow">
+        <h2>Outcomes & impact</h2>
+        <p class="body-m">
+          Highlight measurable results or qualitative feedback.
+        </p>
+        <ul class="body-m">
+          <li>Metric or outcome (e.g., +25% task completion, −30% support tickets).</li>
+          <li>Quote from stakeholder or user.</li>
+          <li>What you’d improve next if you had more time.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Back link -->
+    <section class="section section-alt">
+      <div class="container narrow back-link">
+        <a href="/#work" class="btn ghost">← Back to all work</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="body-xs">© <span id="year"></span> Think Design Solutions.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
